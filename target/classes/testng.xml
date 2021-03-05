@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="UniBuddy assignment questions">
+<listeners>
+    <listener class-name="reporting.ExtentReporter.Reporter"></listener>
+</listeners>
+    <test name="Unibuddy live test cases">
+        <classes>
+            <class name="com.unibuddy.qa.testCases.SearchService"></class>
+            <class name="com.unibuddy.qa.testCases.AuthorService"></class>
+        </classes>
+    </test>
+</suite>
